@@ -1,0 +1,174 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 21, 2018, 1:50:53 AM
+    Author     : Vinay Pathak
+*/
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500,700');   
+@import url('https://fonts.googleapis.com/css?family=Amiri');
+body{
+    font-family: 'Playfair Display',serif;
+}
+body  h1{
+    font-family: 'Playfair Display',serif;
+    margin: 0;
+    padding:10px;
+    height:70px;
+    word-spacing: 4px;
+    background-color:#0A3D62;
+    color: white;
+    font-weight:bold;
+    align-content: center;
+    text-align: center;
+    letter-spacing:2px;
+    font-size:28px;
+    border-radius: 8px;
+}
+table{
+    margin-left: 20px;
+    margin-top:15px;
+    border: 1px solid #ddd;;
+    width:90%;
+    height:25%;
+    border-collapse: collapse;
+    border-radius: 8px;
+}
+.col-sm-7{
+    margin-top: 20px;
+    margin-left: 20px;
+    align-content: center;
+    padding:8px;
+} 
+.col-sm-7 p{
+    margin-top:10px;
+    margin-left:20px;
+    font-weight:bold;
+    font-size:24px;
+    font-family: 'Playfair Display',serif;
+    background-color:#3366cc;
+    color:white;
+    padding:8px;
+    border-radius:8px;
+}
+th{
+    border: 1px solid #ddd;
+    height: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding:8px;
+    font-size: 20px;
+    font-family: 'Playfair Display',serif;
+}
+td{
+    border: 1px solid #ddd;
+    padding:8px;
+    font-weight: 16px;
+    font-family: 'Amiri', serif;
+}
+.col-sm-4{
+    margin-top: 20px;
+    margin-left: 30px;
+    padding:8px;
+}
+.col-sm-4 form{
+    margin-top:20px;
+}
+.col-sm-4 #para1{
+    font-weight:bold;
+    font-size:24px;
+    font-family: 'Playfair Display',serif;
+    margin-top:10px;
+    background-color:#3366cc;
+    color:white;
+    padding:8px;
+    border-radius:8px;
+}
+.col-sm-4 form p{
+    font-size:20px;
+    font-weight: bold;
+    font-family: 'Playfair Display',serif;
+}
+.col-sm-4 form textarea{
+    width:90%;
+    height:150px;
+    padding:10px;
+    border-radius:6px;
+    border: 1px solid #ddd;
+    color:#808080;
+}
+.col-sm-4 textarea:hover{
+    border: 1px solid #8c8c8c;
+}
+.col-sm-4 #b1{
+    font-family: 'Amiri', serif;
+    width: 40%;
+    height: 50px;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    background-color: #3366ff;
+    color:white;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius:6px;
+    margin-left: 40px;
+}
+input[type=text]{
+    border: 1px solid #ddd;
+    height: 50px;
+    width: 90%;
+    padding:10px;
+    border-radius:6px;
+}
+.col-sm-4 input[type=submit]{
+    font-family: 'Amiri', serif;
+    width: 40%;
+    height: 50px;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    background-color: #3366ff;
+    color:white;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius:6px;
+}
+input[type=text]:hover{
+    border: 1px solid #8c8c8c;
+}
+#f1{
+    font-family: 'Amiri', serif;
+    width:90%;
+    height:30px;
+    border:none;
+    text-align:center;
+    padding: 6px;
+    background-color: #3366ff;
+    color:white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius:6px;
+    margin:6px;
+}
+#f2{
+    font-family: 'Amiri', serif;
+    width:22%;
+    height:50px;
+    border:none;
+    text-align:center;
+    padding: 10px;
+    background-color: #3366ff;
+    color:white;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius:6px;
+    margin-left:20px;
+}
+input[type=submit]:hover{
+  background-color:#3366cc;
+}
